@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traversa</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>raversa | India</a>
+   
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">Transportation</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login | Sign Up</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Travel in India with Traversa</h3>
+        <p>To get the best guidance.</p>
+        <p>Explore the Unexplored places</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="assets/video/vid-3.mp4"></span>
+        
+        <span class="vid-btn" data-src="assets/video/vid-5.mp4"></span>
+        <span class="vid-btn" data-src="assets/video/vid-4.mp4"></span>
+        
+    </div>
+
+    <div class="video-container">
+        <video src="assets/video/vid-3.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>book</span>
+      
+        <span class="space"></span>
+        <span>now</span>
+       
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="assets/images/book-img.png" alt="">
+           
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>Destination.</h3>
+                <input type="text" placeholder="e.g- Karnataka">
+            </div>
+            <div class="inputBox">
+                <h3>Guests.</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrival</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>departure</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>PACKAGES</span>
+        
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="assets/images/p-1.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                <p>COVID-19 Update: Stay informed and plan your travel</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">Starting from just ₹ 22,000 per person<span> ₹ 25,000</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="assets/images/p-2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Tawang</h3>
+                <p>COVID-19 Update: Stay Informed And Plan Your Travel</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">Starting From Just ₹ 28,000 Per Person<span>₹ 32,000</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="assets/images/p-3.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Manali </h3>
+                <p>COVID-19 Update: Stay Informed And Plan Your Travel</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">Starting From Just ₹ 26,000 Per Person<span>₹ 27,000</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="assets/images/p-4.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> kerala </h3>
+                <p>COVID-19 Update: Stay Informed And Plan Your Travel</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">Starting From Just ₹ 32,000 Per Person<span>₹ 33,000</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="assets/images/p-5.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> andaman and nicobar </h3>
+                <p>COVID-19 Update: Stay Informed And Plan Your Travel</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">Starting From Just ₹ 36,000 Per Person<span>₹ 39,000</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="assets/images/p-6.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Delhi</h3>
+                <p>COVID-19 Update: Stay Informed And Plan Your Travel</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">Starting From Just ₹ 37,000 Per Person<span>₹ 39,000</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+       
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>SERVICES</span>
+       
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Compare the prices and choose affordable hotels from various sites.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-viruses"></i>
+            <h3>Safety</h3>
+            <p>We suggest the most safe way to travel.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>guide</h3>
+            <p>Our executive will be in contact with you for guidance regarding your plan.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around india</h3>
+            <p>Travel to any part of India and explore the unexplored places</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>cheap travel</h3>
+            <p>We suggest you the cheapest way to travel to your Destination</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Get an adventurous, safe and happy journey with us</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>GALLERY</span>
+        
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="assets/images/g-1.jpg" alt="">
+            <div class="content">
+                <h3>Mumbai</h3>
+                <p>Plan a trip to Mumbai.</p>
+                <a href="https://www.makemytrip.com/travel-guide/mumbai/places-to-visit.html" target="blank" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>Assam</h3>
+                <p>Plan a trip to Assam.</p>
+                <a href="https://www.yatra.com/india-tourism/assam" target="blank"  class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/images/g-3.jpg" alt="">
+            <div class="content">
+                <h3>Kullu, Manali</h3>
+                <p>Plan a trip to Kullu, Manali.</p>
+                <a href="https://www.makemytrip.com/holidays-india/manali-travel-packages.html" target="blank"  class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/images/g-4.jpg" alt="">
+            <div class="content">
+                <h3>Delhi</h3>
+                <p>Plan a trip to Delhi.</p>
+                <a href="https://www.delhitourism.gov.in/" target="blank"  class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/images/g-5.jpg" alt="">
+            <div class="content">
+                <h3>Kolkata</h3>
+                <p>Plan a trip to the 'City of Joy'.</p>
+                <a href="https://grrrltraveler.com/kolkata-travel-guide/" target="blank"  class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/images/g-6.jpg" alt="">
+            <div class="content">
+                <h3>Goa</h3>
+                <p>Plan a trip to Goa to give excuses to your hustle in life..</p>
+                <a href="https://goa-tourism.com/" target="blank"  class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/images/g-7.jpg" alt="">
+            <div class="content">
+                <h3>Kerala</h3>
+                <p>Plan a trip to Kerala.</p>
+                <a href="https://www.keralatourism.org/" target="blank"  class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>Kanyakumari</h3>
+                <p>Plan a trip to Kanyakumari.</p>
+                <a href="https://www.tripadvisor.in/Attractions-g608476-Activities-Kanyakumari_Kanyakumari_District_Tamil_Nadu.html"  target="blank" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>Shillong, Meghalaya</h3>
+                <p>plan a trip to Shillong, 'The Scotland of The East'.</p>
+                <a href="https://www.tourmyindia.com/states/meghalaya/" target="blank"  class="btn">see more</a>
+            </div>
+         
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>Transportation</span>
+        
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="assets/images/pic1.jpg" alt="">
+                    <h3>Airline</h3>
+                    <a href="https://www.air.irctc.co.in/" target="blank"  class="btn"><p>CLICK TO BOOK</p></a>
+                   
+                   
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="assets/images/pic2.jpg" alt="">
+                    <h3>Rail Way</h3>
+                    <a href="https://www.irctc.co.in/" target="blank"  class="btn"><p>CLICK TO BOOK</p></a>
+                   
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="assets/images/pic3.jpg" alt="">
+                    <h3>Cab/Taxi</h3>
+                    <a href="https://services.india.gov.in/service/detail/online-book-cab-or-taxi-by-indian-railway-catering-and-tourism-corporation-ltd-irctc" target="blank"  class="btn"><p>CLICK TO BOOK</p></a>
+                   
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="assets/images/pic4.jpg" alt="">
+                    <h3>Bus</h3>
+                    <a href="https://m.redbus.in/online-booking/hrtc" target="blank"  class="btn"><p>CLICK TO BOOK</p></a>
+                   
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>Contact</span>
+       
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="assets/images/contact-img.png" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="phone number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="assets/images/air1.png" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/2.png" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/air2.png" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/rebus.png" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about developer</h3>
+            <p>Hi I am Parvez, I am a Front end web developer, have mastered in JS, HTML, CSS and JQuery.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">Assam</a>
+            <a href="#">Ahmedabad</a>
+            <a href="#">Mumbai</a>
+            <a href="#">Kullu</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">Transportation</a>
+            <a href="#contact">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> Parvez H. Rohman </span> | all rights reserved! </h1>
+
+</section>
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
